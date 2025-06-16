@@ -1,6 +1,8 @@
 import { createRouter, createWebHistory } from "vue-router";
 import HomePage from "../pages/master/Home.vue";
 import Customers from "../pages/Customers.vue";
+import Suppliers from "../pages/Suppliers.vue";
+import Charts from "../pages/Charts.vue";
 const routes = [
   {
     name: "DashBoard",
@@ -11,6 +13,16 @@ const routes = [
     name: "Customers",
     path: "/customers",
     component: Customers,
+  },
+  {
+    name: "Suppliers",
+    path: "/suppliers",
+    component: Suppliers,
+  },
+  {
+    name: "Charts",
+    path: "/charts",
+    component: Charts,
   },
 ];
 const router = Router();

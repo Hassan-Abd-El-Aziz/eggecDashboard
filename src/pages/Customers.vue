@@ -1,5 +1,5 @@
 <template>
-  <div class="container mx-auto px-4">
+  <div class="container mx-auto px-4 animate-fade-in grid grid-cols-1">
     <h1 class="text-2xl font-bold mb-6 text-gray-800">إدارة العملاء</h1>
 
     <div class="bg-white rounded-lg shadow-md p-6 mb-8">
@@ -170,8 +170,8 @@
       </div>
 
       <div class="mt-4 flex justify-between items-center">
-        <div class="text-sm text-gray-500">
-          عرض <span class="font-medium">1</span> إلى
+        <div class="text-sm text-gray-500 hidden sm:block">
+          عرض <span class="font-normal">1</span> إلى
           <span class="font-medium">5</span> من
           <span class="font-medium">24</span> عملاء
         </div>

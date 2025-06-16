@@ -74,8 +74,8 @@
               class="flex items-center space-x-2 focus:outline-none"
             >
               <img
-                class="w-8 h-8 rounded-full"
-                src="https://via.placeholder.com/40"
+                class="w-9 rounded-full"
+                src="https://img.icons8.com/?size=100&id=83761&format=png&color=ffffff"
                 alt="User"
               />
               <span class="hidden md:inline">المدير</span>
