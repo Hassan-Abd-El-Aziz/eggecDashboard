@@ -1,7 +1,7 @@
 <template>
   <div class="min-h-screen bg-gray-100">
     <!-- شريط التنقل العلوي -->
-    <nav class="bg-blue-600 text-white shadow-lg">
+    <nav class="bg-blue-900 text-white shadow-lg">
       <div
         class="container mx-auto px-4 py-3 flex justify-between items-center"
       >
@@ -24,9 +24,11 @@
               ></path>
             </svg>
           </button>
-          <h1 class="text-xl font-bold sm:font-semibold align-middle">
-            شركة مصر الخليج للمصاعد والسلالم الكهربائية
-          </h1>
+          <img
+            src="./assets/EGGEEC-Logo-white.png"
+            alt=""
+            class="w-35 text-white"
+          />
         </div>
         <div class="flex items-center space-x-4">
           <div class="relative">
@@ -74,11 +76,11 @@
               class="flex items-center space-x-2 focus:outline-none"
             >
               <img
-                class="w-9 rounded-full"
-                src="https://img.icons8.com/?size=100&id=83761&format=png&color=ffffff"
+                class="w-8 rounded-full"
+                src="https://img.icons8.com/?size=100&id=59743&format=png&color=ffffff"
                 alt="User"
               />
-              <span class="hidden md:inline">المدير</span>
+              <span class="hidden md:inline">Hassan Abd ElAziz</span>
             </button>
             <div
               v-if="showUserMenu"
@@ -114,7 +116,7 @@
           'translate-x-0': sidebarOpen,
           '-translate-x-full': !sidebarOpen,
         }"
-        class="bg-gray-800 text-white min-w-100 sm:min-w-64 min-h-screen transition-all duration-300 ease-in-out transform lg:translate-x-0"
+        class="bg-gray-600 text-white min-w-100 sm:min-w-64 min-h-screen transition-all duration-300 ease-in-out transform lg:translate-x-0"
       >
         <div class="p-4">
           <h2 class="text-xl font-semibold">القائمة الرئيسية</h2>
