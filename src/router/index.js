@@ -3,6 +3,7 @@ import HomePage from "../pages/master/Home.vue";
 import Customers from "../pages/Customers.vue";
 import Suppliers from "../pages/Suppliers.vue";
 import Charts from "../pages/Charts.vue";
+import NotFound from "../pages/NotFound.vue";
 const routes = [
   {
     name: "DashBoard",
@@ -23,6 +24,11 @@ const routes = [
     name: "Charts",
     path: "/charts",
     component: Charts,
+  },
+  {
+    path: "/:pathMatch(.*)*",
+    name: "NotFound",
+    component: NotFound,
   },
 ];
 const router = Router();

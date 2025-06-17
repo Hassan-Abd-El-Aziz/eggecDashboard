@@ -1,5 +1,5 @@
 <template>
-  <div class="container mx-auto px-4">
+  <div class="container mx-auto px-4 grid grid-cols-1">
     <h1 class="text-2xl font-bold mb-6 text-gray-800">الصفحة الرئيسية</h1>
 
     <div
@@ -112,9 +112,7 @@
     </div>
 
     <!-- جدول المصاعد الحديثة -->
-    <div
-      class="bg-white rounded-lg shadow-md p-6 mb-8 animate-fade-in hidden sm:block"
-    >
+    <div class="bg-white rounded-lg shadow-md p-6 mb-8 animate-fade-in">
       <div class="flex justify-between items-center mb-4">
         <h2 class="text-xl font-semibold text-gray-800">
           أحدث المصاعد المضافة
